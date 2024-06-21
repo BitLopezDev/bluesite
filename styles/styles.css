@@ -1,0 +1,8 @@
+
+main>section:nth-of-type(even) {
+   background: rgb(33,37,41);
+background: -moz-linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(73,80,87,1) 50%, rgba(33,37,41,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(73,80,87,1) 50%, rgba(33,37,41,1) 100%);
+background: linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(73,80,87,1) 50%, rgba(33,37,41,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#212529",endColorstr="#212529",GradientType=1);  
+}
