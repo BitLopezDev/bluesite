@@ -17,3 +17,11 @@ main>section:nth-of-type(even) {
 .bkggreen {
     background-color: green !important;
 }
+
+h1, .colorText {
+    background: #0C5EFB;
+background: linear-gradient(to right, #0C5EFB 0%, #FFFFFF 100%);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
