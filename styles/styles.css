@@ -29,6 +29,9 @@ background-clip: text;
 .textalmostwhite{
     color:var(--bs-gray-100);
 }
+.textalmostblack{
+    color:var(--bs-gray-900);
+}
 
 .cardfront, .articlecard {
    
