@@ -7,8 +7,9 @@
     "start": "nodemon --exec npx tsc && node dist/greeter.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "BitLopezDev | contacto@bitlopez.dev",
+  "homepage": "https://bitlopez.dev",
+  "license": "MIT",
   "description": "",
   "devDependencies": {
     "typescript": "^5.5.2"

@@ -25,3 +25,27 @@ background: linear-gradient(to right, #0C5EFB 0%, #FFFFFF 100%);
 background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+
+.textalmostwhite{
+    color:var(--bs-gray-100);
+}
+
+.cardfront, .articlecard {
+   
+    height: 500px;
+    min-height: 500px;
+    max-height: 500px;
+    width: 200px !important;
+    min-width: 200px !important;
+    max-width: 200px !important;
+}
+
+.cardfront card-img-top {
+    width: 198px !important;
+    min-width: 198px !important;
+    max-width: 198px !important;
+    height: 198px !important;
+    min-height: 198px !important;
+    max-height: 198px !important;
+
+}
