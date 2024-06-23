@@ -1,5 +1,7 @@
-
-main>section:nth-of-type(even) {
+main {
+    padding-bottom:0 !important;
+}
+main>section:nth-of-type(even):not(.chartsSection) {
     background: rgb(33,37,41);
     background: -moz-linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(108,117,125,1) 25%, rgba(206,212,218,1) 50%, rgba(108,117,125,1) 75%, rgba(33,37,41,1) 100%);
     background: -webkit-linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(108,117,125,1) 25%, rgba(206,212,218,1) 50%, rgba(108,117,125,1) 75%, rgba(33,37,41,1) 100%);
@@ -56,3 +58,12 @@ background-clip: text;
     max-height: 198px !important;
 
 }
+
+.chartsSection {
+    background-color: var(--bs-gray-100);
+}
+#backend {
+    color: white !important;
+}
+
+
