@@ -28,8 +28,11 @@ main>section {
 }
 
 h1, .colorText {
-    background: #0C5EFB;
-background: linear-gradient(to right, #0C5EFB 0%, #FFFFFF 100%);
+    background: rgb(12,94,251);
+background: -moz-linear-gradient(90deg, rgba(12,94,251,1) 14%, rgba(255,255,255,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(12,94,251,1) 14%, rgba(255,255,255,1) 100%);
+background: linear-gradient(90deg, rgba(12,94,251,1) 14%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c5efb",endColorstr="#ffffff",GradientType=1);
 -webkit-background-clip: text;
 background-clip: text;
 -webkit-text-fill-color: transparent;

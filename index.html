@@ -59,15 +59,52 @@
                                 Credenciales en Platzi
                             </a>
                         </li>
+                        <li class="nav-item px-3">
+                            <a className="nav-link" href="" data-bs-toggle="modal" data-bs-target="#contactInfo">
+                                Información de Contacto
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
     <main class="container-fluid px-0 mx-0 py-4">
+        <div class="modal" id="contactInfo">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Información de contacto</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <p>Me presento, soy Santiago Comesaña. Puede contactarme por la siguientes vías:</p>
+                        <ul>
+                            <li>WhatsApp, Telegram y Teléfono: 097.104.930 (0059897104930) </li>
+                            <li>email: contacto@bitlopez.dev</li>
+
+
+                        </ul>
+
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
         <section class="row g-0 justify-content-center align-items-center pt-5">
             <article class="col-10 col-md-5">
                 <h1>BitLopez</h1>
+                <p class="h4"><i>Santiago Comesaña López</i></p>
                 <p class="textalmostwhite h1">
                     Full-Stack web developer and cybersecurity student
                 </p>
@@ -81,6 +118,9 @@
                     <li>Analista en Tecnologías de la información, ORT, (cursando)</li>
 
                 </ul>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactInfo">
+                    Información de contacto
+                </button>
 
 
             </article>
