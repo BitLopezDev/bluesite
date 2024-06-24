@@ -1,3 +1,6 @@
+h1{
+    font-size: 5rem;
+}
 main {
     padding-bottom:0 !important;
 }
@@ -67,3 +70,13 @@ background-clip: text;
 }
 
 
+@media (max-width: 385px) {
+    h1{
+        font-size: 3rem;
+    }
+}
+@media (max-width: 235px) {
+    h1{
+        font-size: 2rem;
+    }
+}
