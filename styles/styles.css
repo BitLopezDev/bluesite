@@ -55,6 +55,9 @@ background-clip: text;
      max-width: 200px ; 
 }
 
+.card-body {
+    overflow-y: scroll;
+}
 .cardfront card-img-top {
     width: 198px !important;
     min-width: 198px !important;
