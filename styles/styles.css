@@ -47,8 +47,8 @@ background-clip: text;
 
 .cardfront, .articlecard {
    
-    height: 500px;
- min-height: 500px; 
+    height:300px;
+ min-height: 300px; 
     max-height: 500px;
  width: 200px; 
      min-width: 200px ; 
@@ -74,6 +74,25 @@ background-clip: text;
 #backend {
     color: white !important;
 }
+
+/* Small SVG variant for carousel images on the right column */
+.carousel-svg-small {
+    max-width: 450px;
+    width: 100%; /* allows it to scale down on small containers */
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .carousel-svg-small {
+        max-width: 140px;
+    }
+}
+
 
 
 @media (max-width: 385px) {
