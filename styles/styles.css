@@ -47,16 +47,16 @@ background-clip: text;
 
 .cardfront, .articlecard {
    
-    height:300px;
- min-height: 300px; 
-    max-height: 500px;
+    height:550px;
+ min-height: 550px; 
+    max-height: 550px;
  width: 200px; 
      min-width: 200px ; 
      max-width: 200px ; 
 }
 
 .card-body {
-    overflow-y: scroll;
+    overflow-y: none;
 }
 .cardfront card-img-top {
     width: 198px !important;
