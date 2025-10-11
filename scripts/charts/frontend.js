@@ -6,11 +6,11 @@
     new Chart(document.getElementById("frontend"), {
         type: 'pie',
         data: {
-            labels: ["JavaScript for Frontend", "Flash", "None",],
+            labels: ["JavaScript for Frontend", "Flash", "Java",],
             datasets: [{
                 label: "Cuota de mercado (%)",
                 backgroundColor: ["#efd81d", "#d90003", "#3cba9f"],
-                data: [98.2, 1.5, 1.8,]
+                data: [98.9, 0.8, 0.1,]
             }]
         },
         options: {
